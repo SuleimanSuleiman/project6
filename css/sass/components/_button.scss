@@ -1,0 +1,19 @@
+.main-button{
+    padding: 17px 23px;
+    border: 0;
+    border-radius: 13px;
+    color: #fff;
+    text-align: center;
+    font-size: 21px;
+    font-weight: normal;
+    background-color: $main-color;
+    transition: 0.2s;
+    cursor: pointer;
+    -webkit-transition: 0.2s;
+    -moz-transition: 0.2s;
+    -ms-transition: 0.2s;
+    -o-transition: 0.2s;
+    &:hover{
+        background-color: rgba($main-color,0.9);
+    }
+}

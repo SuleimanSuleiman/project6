@@ -1,0 +1,144 @@
+.slider{
+    clear: both;
+    padding: 22px;
+    text-align: center;
+    font-size: 22px;
+    color: #5e5e5e;
+    font-family: none;
+    font-weight: bold;
+    line-height: 1.7;
+    .bullent{
+        text-align: center;
+        li{
+            display: inline-block;
+            border-radius: 50%;
+            -webkit-border-radius: 50%;
+            -moz-border-radius: 50%;
+            -ms-border-radius: 50%;
+            -o-border-radius: 50%;
+            border: 1px solid $paragraph;
+            width: 10px;
+            height: 10px;
+            cursor: pointer;
+            &.active,
+            &:hover{
+                background-color: $paragraph;
+            }
+        }
+    }
+}
+
+.services,
+.our-player{
+    img{
+        max-width: 100%;
+    }
+    .boxs{
+        display: flex;
+        justify-content: space-around;
+        .box{
+            flex-basis: 32.6%;
+            h2{
+                color:#5e5e5e;
+            }
+            p{
+                line-height: 1.7;
+                color: #101010;
+            }
+            a{
+                text-decoration: none;
+                color: $main-color;
+                font-size: 17px;
+                font-weight: bold;
+            }
+        }
+    }
+}
+.our-player{
+    .box{
+        flex-basis: 19.2% !important;
+    }
+}
+
+.feature{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    .boxs{
+        display: flex;
+        justify-content: space-between;
+        .box{
+            flex-basis: 32.6%;
+            img{
+                max-width: 100%;
+            }
+        }
+    }
+}
+
+.footer{
+    background-color: $paragraph;
+    padding: 22px;
+    .boxs{
+        display: flex;
+        justify-content: space-around;
+        .box{
+            &:nth-child(1){
+                flex-basis: 50%;
+            }
+            &:nth-child(2),
+            &:last-of-type{
+                flex-basis: 19%;
+            }
+            .box-heading{
+                color: #5e5e5e;
+                font-weight: bold;
+                font-size: 23px;
+                margin-bottom: 30px;
+            }
+            .part{
+                display: flex;
+                justify-content: space-around;
+                .image{
+                    width: 272px;
+                    flex-basis: 24%;
+                    @include flex-center;
+                    img{
+                        max-width: 100%;
+                    }
+                }
+                .text{
+                    flex-basis: 70%;
+                    h2{
+                        color: $main-color;
+                        font-weight: bold;
+                        padding: 0;
+                    }
+                    p{
+                        line-height: 1.7;
+                        color: #2c2c2c;
+                        font-size: 19px;
+                    }
+                }
+            }
+            p{
+                line-height: 1.7;
+                color: #2c2c2c;
+                font-size: 19px;
+            }
+            a{
+                color: $main-color;
+                text-decoration: none;
+                font-size: 21px;
+            }
+            form {
+                input{
+                margin-bottom: 22px;
+                }
+                button{
+                    margin-top: 13px;
+                    float: right;
+                }
+            }
+        }
+    }
+}

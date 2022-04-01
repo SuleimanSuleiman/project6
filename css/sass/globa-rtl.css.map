@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAGA,AACI,MADE,CACF,KAAK,CAAA;EACD,KAAK,EAJC,KAAK;EAKX,KAAK,EAAE,GAAG;CACb;;AAJL,AAKI,MALE,CAKF,OAAO,CAAA;EACH,KAAK,EATA,IAAI;EAUT,KAAK,EAAE,GAAG;CACb",
+    "sources": [
+        "globa-rtl.scss"
+    ],
+    "names": [],
+    "file": "globa-rtl.css"
+}
